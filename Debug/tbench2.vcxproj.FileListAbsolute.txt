@@ -1,0 +1,8 @@
+E:\projects_demo\gSOAP_demo\tbench2\Debug\tbench2.exe
+E:\projects_demo\gSOAP_demo\tbench2\Debug\tbench2.pdb
+D:\install\projects\gSOAP_demo\tbench2\Debug\tbench2.exe
+D:\install\projects\gSOAP_demo\tbench2\Debug\tbench2.pdb
+E:\Projects\tbench2_2\Debug\tbench2.exe
+E:\Projects\tbench2_2\Debug\tbench2.pdb
+D:\install\projects\gSOAP_demo\tbench2_2\Debug\tbench2.exe
+D:\install\projects\gSOAP_demo\tbench2_2\Debug\tbench2.pdb

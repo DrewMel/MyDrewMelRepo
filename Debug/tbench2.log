@@ -1,0 +1,16 @@
+﻿  Bench.cpp
+D:\install\projects\gSOAP_demo\tbench2_2\soapIJusWTBServicebindingProxy.h(198,1): warning C4005: 'FOOSetMetersData': macro redefinition
+D:\install\projects\gSOAP_demo\tbench2_2\soapIJusWTBServicebindingProxy.h(188): message : see previous definition of 'FOOSetMetersData'
+D:\install\projects\gSOAP_demo\tbench2_2\Bench.cpp(303,52): warning C4552: '+': result of expression not used
+D:\install\projects\gSOAP_demo\tbench2_2\Bench.cpp(633,4): warning C4002: too many arguments for function-like macro invocation 'LOG_ERR'
+  tbench2.cpp
+D:\install\projects\gSOAP_demo\tbench2_2\soapIJusWTBServicebindingProxy.h(198,1): warning C4005: 'FOOSetMetersData': macro redefinition
+D:\install\projects\gSOAP_demo\tbench2_2\soapIJusWTBServicebindingProxy.h(188): message : see previous definition of 'FOOSetMetersData'
+D:\install\projects\gSOAP_demo\tbench2_2\tbench2.cpp(41,39): warning C4390: ';': empty controlled statement found; is this the intent?
+  Generating Code...
+D:\install\projects\gSOAP_demo\tbench2_2\Bench.cpp(119): warning C4715: 'Bench::getTests': not all control paths return a value
+D:\install\projects\gSOAP_demo\tbench2_2\Bench.cpp(223): warning C4715: 'Bench::getTestsInfo': not all control paths return a value
+D:\install\projects\gSOAP_demo\tbench2_2\Bench.cpp(481): warning C4715: 'Bench::executeTest': not all control paths return a value
+D:\install\projects\gSOAP_demo\tbench2_2\Bench.cpp(619): warning C4715: 'Bench::deleteTest': not all control paths return a value
+D:\install\projects\gSOAP_demo\tbench2_2\Bench.cpp(688): warning C4715: 'Bench::setLine': not all control paths return a value
+  tbench2.vcxproj -> D:\install\projects\gSOAP_demo\tbench2_2\Debug\tbench2.exe
