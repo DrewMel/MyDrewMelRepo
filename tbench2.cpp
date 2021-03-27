@@ -34,25 +34,25 @@ namespace Rslttbl {
 	enum { TNCOLUMN, FLOWRATE, WEIGHT, INLETTEMP, OUTLETTEMP, INLETPRESSURE, OUTLETPRESSURE, LAMBDA, MIDTEMP, MIDPULSECONST, MIDVOLUME, MIDERROR, DURATION, ADDITIVELAMDA, COLUMN_NUM };
 };
 
-enum Purpse {NOPARAMETER = 0, TEXT, VALUE};
+enum Purpse {NOPARAMETER = 0, TEXT, VALUE, MANDATORYTEXT, MANDATORYVALUE};
 
 struct dictword { std::string keynm; Purpse prps; const dictword* sk; };
 
 const dictword ParamDictionary[]
 {
-	{KEYMinFCOLUMNSTR, VALUE, nullptr},
-	{KEYMaxFCOLUMNSTR, VALUE, nullptr},
-	{KEYMinTCOLUMNSTR, VALUE, nullptr},
-	{KEYMaxTCOLUMNSTR, VALUE, nullptr},
-	{KEYMinVCOLUMNSTR, VALUE, nullptr},
-	{KEYProofMCOLUMNSTR, VALUE, nullptr},
+	{KEYMinFCOLUMNSTR, MANDATORYVALUE, nullptr},
+	{KEYMaxFCOLUMNSTR, MANDATORYVALUE, nullptr},
+	{KEYMinTCOLUMNSTR, MANDATORYVALUE, nullptr},
+	{KEYMaxTCOLUMNSTR, MANDATORYVALUE, nullptr},
+	{KEYMinVCOLUMNSTR, MANDATORYVALUE, nullptr},
+	{KEYProofMCOLUMNSTR, MANDATORYVALUE, nullptr},
 	{nullptr, NOPARAMETER, nullptr}
 };
 
 const dictword Dictionary[] =
 {
 	{HLP, NOPARAMETER, nullptr},
-	{LNE, TEXT, nullptr},
+	{LNE, MANDATORYTEXT, nullptr},
 	{PRR, TEXT, ParamDictionary},
 	{EXE, TEXT, nullptr},
 	{STP, NOPARAMETER, nullptr},
